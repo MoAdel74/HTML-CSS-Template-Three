@@ -277,6 +277,11 @@ header .mega-menu .links li a i {
     header .mega-menu .links:first-of-type li {
         border-bottom: 1px solid #ddd;
     }
+    @media (max-width: 400px) {
+    header .mega-menu .links li {
+        min-width: 100%;
+    }
+}
 }
 .landing {
     position: relative;
@@ -484,6 +489,13 @@ header .mega-menu .links li a i {
 }
 .gallery .image:hover img {
     transform: rotate(5deg) scale(1.2);
+}
+@media (max-width: 400px) {
+    .gallery .container .box  {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .features {
     background-color: white;
