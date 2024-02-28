@@ -1332,6 +1332,9 @@ border-color: var(--main-color);
     flex-wrap: wrap;
     min-height: 100vh;
 }
+.discount .content {
+    max-width: 100%;
+}
 .discount >.content {
     background-image: url(../imgs/discount-background1.jpg);
     background-size: cover;
