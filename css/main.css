@@ -1525,10 +1525,15 @@ footer .box .text {
         margin-left: 20px;
         transition: var(--transition-duration);
     }
-    @media (max-width: 767px) {
+    @media (max-width: 586px) {
         footer .box:nth-of-type(2) ul li a::before {
             left: 30%;
         }
+    }
+    @media (max-width: 586px) {
+        footer .box:nth-of-type(2) ul li a::before {
+            left: 20%;
+        } 
     }
     footer .box:nth-of-type(2) ul li:hover a,
     footer .box:nth-of-type(2) ul li:hover a::before {
